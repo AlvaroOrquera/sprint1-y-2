@@ -206,22 +206,19 @@ footer {
     display: inline-flex;
 }
 
-.contactos {
-    text-align: center;
+.contactos{
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     font-family: 'Kanit', sans-serif;
     border-radius: 10px;
-    width: 40%;
-    margin-left: 30%;
-    font-size: 30px;
+margin-left: 50px;
+    font-size: 20px;
     color: whitesmoke;
+    
 }
-
+.num{
+    margin-left: 70%;
+}
 .contactos a{
-    text-decoration: none;
     color: whitesmoke;
-}
-.contactos{
-
 }
