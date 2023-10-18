@@ -9,21 +9,11 @@
 
 body {
     background-image: url(../images/fondo\ gris.jpg);
-    box-sizing: content-box;
-}
-
-.l1{
-margin: 10px 0px;
-padding: 30px;
-}
-
-.l1 li{
-display: inline;
-margin-right: 45px;
-margin: 0px 0px;
+    box-sizing: border-box;
 
 }
 
+/*home*/
 .super {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     background-color: #D4C4A6;
@@ -32,11 +22,29 @@ margin: 0px 0px;
     justify-content: space-between;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    max-height:30px ;
+    max-height: 30px;
     margin: 0px 0px;
 }
 
-.super a{
+.super {
+    position: sticky;
+}
+
+.l1 {
+    margin: 10px 0px;
+    padding: 30px;
+
+}
+
+.l1 li {
+    display: inline;
+    margin-right: 45px;
+    margin: 0px 0px;
+}
+
+
+
+.super a {
     transition: .3s;
     font-size: 18px;
     color: #000000;
@@ -50,6 +58,7 @@ margin: 0px 0px;
     max-width: 45px;
     padding: 5px;
 }
+
 nav a:hover {
     background-color: white;
     color: black;
@@ -125,7 +134,6 @@ footer {
     background-color: wheat;
     color: black;
     text-align: center;
-
 }
 
 /* parte del aboutus empieza aca */
@@ -206,19 +214,95 @@ footer {
     display: inline-flex;
 }
 
-.contactos{
+.contactos {
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     font-family: 'Kanit', sans-serif;
     border-radius: 10px;
-margin-left: 50px;
+    margin-left: 50px;
     font-size: 20px;
     color: whitesmoke;
-    
+
 }
-.num{
+
+.num {
     margin-left: 70%;
 }
-.contactos a{
+
+.contactos a {
     color: whitesmoke;
+}
+
+/*comienza el services*/
+
+.s4 {
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 35%;
+    color: white;
+    font-size: 20px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+table {
+    color: #fff;
+    font-size: 40px;
+    padding: 5px;
+    background-color: #D4C4A6;
+}
+
+table {
+    color: black;
+    font-size: 25px;
+    border-collapse: separate;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+thead {
+    background: rgba(255, 255, 255, 0.534);
+}
+
+th {
+    padding: 20px 15px;
+    font-weight: 700;
+}
+
+td {
+    padding: 15px;
+}
+
+/* empieza el Rating*/
+
+article{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.ph1{
+    width: 250px;
+    height: 250px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.st1{
+    width: 150px;
+    height: 50px;
+    margin-right: 25px;
+    margin-bottom: 30px;
 }
