@@ -291,7 +291,8 @@ td {
     align-items: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    width: max-content;
+    width: 40rem;
+    height: 15rem;
     margin-left: 60vh;
     margin-top: 10vh;
     border-radius: 15px;
@@ -300,6 +301,10 @@ td {
     font-family: 'Kanit', sans-serif;
 }
 
+.c1{
+    width: 25rem;
+    height: 15rem;
+}
 .ph1 {
     width: 255px;
     height: 250px;
@@ -309,7 +314,7 @@ td {
 }
 
 .st1 {
-    width: 200px;
+    width: 150px;
     height: 50px;
     margin-right: 25px;
     margin-bottom: 30px;
@@ -324,7 +329,7 @@ td {
 }
 
 .st2 {
-    width: 200px;
+    width: 150px;
     height: 50px;
     margin-right: 25px;
     margin-bottom: 30px;
@@ -336,7 +341,7 @@ td {
     font-family: 'Kanit', sans-serif;
     border-radius: 10px;
     width: 70%;
-    margin-left: 20%;margin-top: 20px; margin-bottom: 20px;
+    margin-left: 20%;margin-top: 20px; margin-bottom: 30px;
     color: white;
     font-size: 30px;
     
